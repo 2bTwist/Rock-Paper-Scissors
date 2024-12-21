@@ -39,6 +39,8 @@ function playGame(){
         if (humanChoice == "Rock"){
             if(computerChoice == "Rock"){
                 console.log(`You both played ${humanChoice}`)
+                humanPoints = humanPoints + 1
+                computerPoints = computerPoints + 1
             }
             else if(computerChoice == "Paper"){
                 console.log(`You lose! ${computerChoice} beats ${humanChoice}`)
@@ -57,6 +59,8 @@ function playGame(){
             }
             else if(computerChoice == "Paper"){
                 console.log(`You both played ${humanChoice}`)
+                humanPoints = humanPoints + 1
+                computerPoints = computerPoints + 1
             }
             else if(computerChoice == "Scissors"){
                 console.log(`You lose! ${computerChoice} beats ${humanChoice}`)
@@ -75,6 +79,8 @@ function playGame(){
             }
             else if(computerChoice == "Scissors"){
                 console.log(`You both played ${humanChoice}`)
+                humanPoints = humanPoints + 1
+                computerPoints = computerPoints + 1
             }
         }
     }
